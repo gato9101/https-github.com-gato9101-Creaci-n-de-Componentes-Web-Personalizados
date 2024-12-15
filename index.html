@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes WEB</title>
+</head>
+<body>
+    <header-elemento></header-elemento>
+
+    <menu-elemento enlaceinicio="index.html" enlaceperfil="socialprofile.html" enlacegaleria="gallery.html"></menu-elemento>
+
+    <main-elemento>
+        <h1>Slot</h1>
+        <p>Esta pagina tiene los siguiente elementos:</p>
+        <ol>
+            <li>Encabezado</li>
+            <li>Menu</li>
+            <li>Slots</li>
+            <li>Perfil social</li>
+            <li>Tabla de datos</li>
+            <li>Galería</li>
+            <li>Pie de página</li>
+        </ol>
+    </main-elemento>
+
+    <social-elemento></social-elemento>
+
+    <table-elemento url="https://jsonplaceholder.typicode.com/users"></table-elemento>
+
+    <gallery-elemento url="https://pokeapi.co/api/v2/pokemon/"></gallery-elemento>
+
+    <footer-elemento></footer-elemento>
+
+    <script src="JavaScript/Header.js"></script>
+    <script src="JavaScript/Footer.js"></script>
+    <script src="JavaScript/Main.js"></script>
+    <script src="JavaScript/Menu.js"></script>
+    <script src="JavaScript/SocialProfile.js"></script>
+    <script src="JavaScript/CustomTable.js"></script>
+    <script src="JavaScript/Gallery.js"></script>
+
+</body>
+</html>
